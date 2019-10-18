@@ -17,12 +17,12 @@ def apply_conv(input_img_path, filter):
     temp[temp<0] = 0
     return temp
 
-def main():
-    file_path = input("Enter the file path to which you want to apply conv :")
-    filter = input("Enter filter by creating filter without channel in list form :")
-    filter = np.array(filte)
-    out = apply_conv(file_path, filter)
-    plt.imshow(out, cmap='gray')
-
-if __name__ == "__main__":
-    main()
+#def main():
+#    filter = np.array([[-1,0,1],[-1,0,1],[-1,0,1]])
+#    file_path = input("Enter the file path to which you want to apply conv :")
+#    out = apply_conv(file_path, filter)
+#    plt.imshow(out, cmap='gray')
+#    input()
+#
+#if __name__ == "__main__":
+#    main()
